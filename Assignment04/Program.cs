@@ -47,7 +47,7 @@ class Program
 
         #region 4- Write a program that takes two integers then prints the power.
 
-        
+        /*
         Console.WriteLine("Please Enter Two Numbers:");
         int x, y,res = 1;
         Int32.TryParse(Console.ReadLine(), out x);
@@ -57,13 +57,13 @@ class Program
             res *= x;
         }
         Console.WriteLine(res);
-        
+        */
 
         #endregion
 
         #region 5- enter marks of five subjects and calculate total, average and percentage.
 
-        /*
+        
         Console.WriteLine("Enter Five Numbers:");
         string[] arr = Console.ReadLine().Split(' ');
         int[] arr2 = new int[arr.Length];
@@ -75,7 +75,7 @@ class Program
         Console.WriteLine($"Total Marks = {sum}");
         Console.WriteLine($"Average = {avg}");
         Console.WriteLine($"Percent = {((double)sum / 500) * 100}");
-        */
+        
 
         #endregion
 
