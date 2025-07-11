@@ -18,6 +18,7 @@ class Program
         #endregion
 
         #region 2- user to insert number then print all even numbers between 1 to this number
+        /*
         Console.WriteLine("Please enter a number");
         int x;
         Int32.TryParse(Console.ReadLine(), out x);
@@ -26,11 +27,10 @@ class Program
             Console.Write(x * i);
             Console.Write(' ');
         }
+        */
         #endregion
 
         #region 3- user to insert number then print all even numbers between 1 to this number
-
-        /*
         Console.WriteLine("Please enter a number");
         int x;
         Int32.TryParse(Console.ReadLine(), out x);
@@ -39,8 +39,6 @@ class Program
             Console.Write((((i & 1) == 0) ? x : ' '));
             Console.Write(' ');
         }
-        */
-
         #endregion
 
         #region 4- Write a program that takes two integers then prints the power.
