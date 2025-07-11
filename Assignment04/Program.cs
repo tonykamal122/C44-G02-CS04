@@ -110,7 +110,7 @@ class Program
 
         #region 8- find prime numbers within a range of numbers.
 
-        
+        /*
         Console.WriteLine("Enter a range of Numbers");
         int x, y;
         Int32.TryParse(Console.ReadLine(), out x);
@@ -130,13 +130,13 @@ class Program
             if (isPrime) Console.Write(i + " ");
 
         }
-        
+        */
 
         #endregion
 
         #region 9- convert a decimal number into binary
 
-        /*
+        
         int num;
         Int32.TryParse(Console.ReadLine(), out num);
         int binary = 0;
@@ -150,7 +150,7 @@ class Program
             num /= 2;
         }
         Console.WriteLine(binary);
-        */
+        
 
         #endregion
 
