@@ -136,7 +136,7 @@ class Program
 
         #region 9- convert a decimal number into binary
 
-        
+        /*
         int num;
         Int32.TryParse(Console.ReadLine(), out num);
         int binary = 0;
@@ -150,13 +150,13 @@ class Program
             num /= 2;
         }
         Console.WriteLine(binary);
-        
+        */
 
         #endregion
 
         #region 10- that asks the user to input three points lie on a single straight line.
 
-        /*
+        
         int x1, y1, x2, y2, x3, y3;
         Int32.TryParse(Console.ReadLine(), out x1);
         Int32.TryParse(Console.ReadLine(), out y1);
@@ -166,7 +166,7 @@ class Program
         Int32.TryParse(Console.ReadLine(), out y3);
         Console.WriteLine((y2 - y1) * (x3 - x1) == (y3 - y1) * (x2 - x1)
             ? "Points are on a straight line.": "Points are NOT on a straight line.");
-        */
+        
 
         #endregion
 
