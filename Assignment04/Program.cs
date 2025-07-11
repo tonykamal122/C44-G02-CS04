@@ -63,7 +63,7 @@ class Program
 
         #region 5- enter marks of five subjects and calculate total, average and percentage.
 
-        
+        /*
         Console.WriteLine("Enter Five Numbers:");
         string[] arr = Console.ReadLine().Split(' ');
         int[] arr2 = new int[arr.Length];
@@ -75,7 +75,7 @@ class Program
         Console.WriteLine($"Total Marks = {sum}");
         Console.WriteLine($"Average = {avg}");
         Console.WriteLine($"Percent = {((double)sum / 500) * 100}");
-        
+        */
 
         #endregion
 
