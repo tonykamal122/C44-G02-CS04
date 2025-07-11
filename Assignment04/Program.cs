@@ -81,19 +81,19 @@ class Program
 
         #region 6- the user to enter a string and print the REVERSE of it
 
-        
+        /*
         Console.WriteLine("Please Enter A word");
         string word = Console.ReadLine();
         StringBuilder word2 = new StringBuilder();
         for (int i = word.Length - 1; i >= 0; i--) word2.Append(word[i]);
         Console.WriteLine($"Reversed word:  {word2}");
-        
+        */
 
         #endregion
 
         #region 7- Write a program to allow the user to enter int and print the REVERSED of it.
 
-        /*
+        
         Console.WriteLine("Please Enter a number:");
         int x, y = 0;
         Int32.TryParse(Console.ReadLine(), out x);
@@ -104,7 +104,7 @@ class Program
             x /= 10;
         }
         Console.WriteLine(y);
-        */
+        
 
         #endregion
 
