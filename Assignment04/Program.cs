@@ -6,6 +6,7 @@ class Program
     static void Main(string[] args)
     {
         #region 1- allows the user to ins integer then print all nums between 1 to that nums
+        /*
         Console.WriteLine("Please enter a number");
         int x;
         Int32.TryParse(Console.ReadLine(), out x);
@@ -13,10 +14,10 @@ class Program
         {
             Console.Write(i < x ? $"{i}, " : $"{i}");
         }
+        */
         #endregion
 
         #region 2- user to insert number then print all even numbers between 1 to this number
-        /*
         Console.WriteLine("Please enter a number");
         int x;
         Int32.TryParse(Console.ReadLine(), out x);
@@ -25,7 +26,6 @@ class Program
             Console.Write(x * i);
             Console.Write(' ');
         }
-        */
         #endregion
 
         #region 3- user to insert number then print all even numbers between 1 to this number
