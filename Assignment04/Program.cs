@@ -156,7 +156,7 @@ class Program
 
         #region 10- that asks the user to input three points lie on a single straight line.
 
-        
+        /*
         int x1, y1, x2, y2, x3, y3;
         Int32.TryParse(Console.ReadLine(), out x1);
         Int32.TryParse(Console.ReadLine(), out y1);
@@ -166,13 +166,13 @@ class Program
         Int32.TryParse(Console.ReadLine(), out y3);
         Console.WriteLine((y2 - y1) * (x3 - x1) == (y3 - y1) * (x2 - x1)
             ? "Points are on a straight line.": "Points are NOT on a straight line.");
-        
+        */
 
         #endregion
 
         #region 11- identity matrix using for loop, in other words takes a value n from the user
 
-        /*
+        
         int n;
         Int32.TryParse(Console.ReadLine(), out n);
         for (int i = 0; i < n; i++)
@@ -185,7 +185,7 @@ class Program
 
             Console.WriteLine();
         }
-        */
+        
 
         #endregion
     }
