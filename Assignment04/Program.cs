@@ -93,7 +93,7 @@ class Program
 
         #region 7- Write a program to allow the user to enter int and print the REVERSED of it.
 
-        
+        /*
         Console.WriteLine("Please Enter a number:");
         int x, y = 0;
         Int32.TryParse(Console.ReadLine(), out x);
@@ -104,13 +104,13 @@ class Program
             x /= 10;
         }
         Console.WriteLine(y);
-        
+        */
 
         #endregion
 
         #region 8- find prime numbers within a range of numbers.
 
-        /*
+        
         Console.WriteLine("Enter a range of Numbers");
         int x, y;
         Int32.TryParse(Console.ReadLine(), out x);
@@ -130,7 +130,7 @@ class Program
             if (isPrime) Console.Write(i + " ");
 
         }
-        */
+        
 
         #endregion
 
